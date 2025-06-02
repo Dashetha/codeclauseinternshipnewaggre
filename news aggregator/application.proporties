@@ -1,0 +1,14 @@
+# Server Configuration
+server.port=8080
+
+# News API Configuration
+news.api.key=ff4b23411e714e55b30b49a4b9328213
+
+# CORS Configuration
+spring.mvc.cors.allowed-origins=*
+spring.mvc.cors.allowed-methods=GET,POST,PUT,DELETE,OPTIONS
+spring.mvc.cors.allowed-headers=*
+
+# Logging
+logging.level.com.newsaggregator=DEBUG
+logging.level.org.springframework.web=DEBUG
